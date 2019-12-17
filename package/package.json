@@ -1,0 +1,13 @@
+{
+  "name": "hl7.cda.template",
+  "version": "0.0.4",
+  "type": "fhir.template",
+  "license": "CC0-1.0",
+  "description": "HL7 CDA Template - for use with HL7-published FHIR IGs",
+  "author": "http://hl7.org/fhir",
+  "canonical": "http://github.com/HL7/ig-template-hl7",
+  "base": "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template": "0.0.1"
+  }
+}

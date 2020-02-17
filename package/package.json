@@ -1,6 +1,5 @@
-{
+﻿{
   "name": "hl7.cda.template",
-  "version": "current",
   "type": "fhir.template",
   "license": "CC0-1.0",
   "description": "HL7 CDA Template - for use with HL7-published FHIR IGs",
@@ -9,5 +8,6 @@
   "base": "fhir.base.template",
   "dependencies": {
     "fhir.base.template": "current"
-  }
+  },
+  "version": "0.1.0"
 }

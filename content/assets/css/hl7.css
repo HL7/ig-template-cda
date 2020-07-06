@@ -1,9 +1,23 @@
+:root {
+
+--navbar-bg-color: #2E8B57; /* 2. Header container color */
+  --footer-container-color: #2E8B57; /* 4. Footer container color */
+  --btn-hover-color: #34d379;  /* 6. Menu button hover color */
+  --btn-active-color: #09ac4f; /* 7. Menu button active color */
+  --btn-hover-color: #20b057;  /* 6. Menu button hover color */
+  --btn-active-color: #40d077; /* 7. Menu button active color */
+  --ig-header-container-color: #ffffff; /* 22. Header container color (center) */
+
+
+}
 #segment-footer > .container {
-  background-color: #2E8B57;
+  background-color: var(--footer-container-color);
 }
 .navbar-inverse {
-  background-color: #2E8B57;
+  background-color: var(--navbar-bg-color);
 }
+
+
 #hl7-nav {
   line-height: 50px;
   float: left;
@@ -37,3 +51,4 @@
   float: right;
   margin-left: 6px;
 }
+

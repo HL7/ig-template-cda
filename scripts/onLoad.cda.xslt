@@ -6,7 +6,13 @@
   <xsl:import href="onLoad.xslt"/>
   <xsl:template match="f:definition">
     <xsl:copy>
-      <xsl:apply-templates select="@*|f:id|f:extension|f:modifierExtension|f:grouping|f:resource|f:page|f:parameter"/>
+      <xsl:apply-templates select="@*|f:id|f:extension"/>
+      <xsl:apply-templates mode="convertParams" select="f:parameter[f:code[not(@value='apply' or @value='path-resource' or @value='path-pages' or @value='path-tx-cache' or @value='expansion-parameter' or @value='rule-broken-links' or @value='generate-xml' 
+            or @value='generate-json' or @value='generate-turtle' or @value='html-template')]]"/>
+      <xsl:call-template name="addParameters">
+        <xsl:with-param name="extensionMode" select="'Y'"/>
+      </xsl:call-template>
+      <xsl:apply-templates select="f:modifierExtension|f:grouping|f:resource|f:page|f:parameter"/>
       <xsl:call-template name="addParameters"/>
       <xsl:call-template name="addCDAParameters"/>
       <xsl:apply-templates select="f:template"/>

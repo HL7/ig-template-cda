@@ -1,13 +1,13 @@
-{
-  "name": "hl7.cda.template",
-  "type": "fhir.template",
-  "license": "CC0-1.0",
-  "description": "HL7 CDA Template - for use with HL7-published FHIR IGs",
-  "author": "http://hl7.org/fhir",
-  "canonical": "http://github.com/HL7/ig-template-cda",
-  "base": "hl7.base.template",
-  "dependencies": {
-    "hl7.base.template": "current"
+﻿{
+  "name" : "hl7.cda.template",
+  "type" : "fhir.template",
+  "license" : "CC0-1.0",
+  "description" : "HL7 CDA Template - for use with HL7-published FHIR IGs",
+  "author" : "http://hl7.org/fhir",
+  "canonical" : "http://github.com/HL7/ig-template-cda",
+  "base" : "hl7.base.template",
+  "dependencies" : {
+    "hl7.base.template" : "current"
   },
-  "version": "0.2.2"
+  "version" : "0.5.0"
 }

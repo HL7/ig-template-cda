@@ -10,4 +10,12 @@
       <param name="spreadsheetList" expression="${prop.spreadsheet.contents}"/>
     </xslt>
   </target>
+  <target name="onCheck">
+    <!-- Run the fhir-cda-schematron generator from https://www.npmjs.com/package/@hl7/fhir-cda-validation
+         If it is not installed, just fails silently. -->
+    <echo message="Generating Schematron"/>
+    <exec executable="fhir-cda" failifexecutionfails="false">
+      <arg value="."/>
+    </exec>
+  </target>
 </project>

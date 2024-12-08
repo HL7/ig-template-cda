@@ -9,10 +9,13 @@
     <xsl:apply-imports>
       <xsl:with-param name="extensionMode" select="$extensionMode"/>
     </xsl:apply-imports>
+<!-- SD moved to re-enable the JSON tab for Logical Models:
+         https://confluence.hl7.org/display/SD/2023-10-19+Agenda+and+Minutes
+         To hide it in your IG, just set the excludejson parameter to true
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'excludejson'"/>
       <xsl:with-param name="value" select="'true'"/>
-    </xsl:call-template>
+    </xsl:call-template> -->
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'excludettl'"/>
       <xsl:with-param name="value" select="'true'"/>

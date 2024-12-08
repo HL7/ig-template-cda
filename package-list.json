@@ -1,4 +1,4 @@
-﻿{
+{
   "package-id" : "hl7.cda.template",
   "title" : "Base template for CDA IGs published by HL7",
   "canonical" : "http://fhir.org/templates/hl7.cda.template",
@@ -12,14 +12,59 @@
       "current" : true
     },
     {
+      "version" : "0.9.1",
+      "path" : "http://fhir.org/templates/hl7.cda.template/0.9.1",
+      "status" : "release",
+      "sequence" : "Publications",
+      "fhirversion" : "4.0.1",
+      "desc" : "Upgrade for dependency on fhir.base.template",
+      "date" : "2024-07-06",
+      "current" : true
+    },
+    {
+      "version" : "0.9.0",
+      "path" : "http://fhir.org/templates/hl7.cda.template/0.9.0",
+      "status" : "release",
+      "sequence" : "Publications",
+      "fhirversion" : "4.0.1",
+      "desc" : "Upgrade for dependency on fhir.base.template",
+      "date" : "2024-04-25"
+    },
+    {
+      "version" : "0.8.0",
+      "path" : "http://fhir.org/templates/hl7.cda.template/0.8.0",
+      "status" : "release",
+      "sequence" : "Publications",
+      "fhirversion" : "4.0.1",
+      "desc" : "Upgrade for dependency on fhir.base.template",
+      "date" : "2024-03-07"
+    },
+    {
+      "version" : "0.7.0",
+      "path" : "http://fhir.org/templates/hl7.cda.template/0.7.0",
+      "status" : "release",
+      "sequence" : "Publications",
+      "fhirversion" : "4.0.1",
+      "desc" : "Upgrade for dependency on fhir.base.template",
+      "date" : "2023-09-21"
+    },
+    {
+      "version" : "0.6.0",
+      "path" : "http://fhir.org/templates/hl7.cda.template/0.6.0",
+      "status" : "release",
+      "sequence" : "Publications",
+      "fhirversion" : "4.0.1",
+      "desc" : "Add otherScripts for template security changes",
+      "date" : "2023-09-13"
+    },
+    {
       "version" : "0.5.0",
       "path" : "http://fhir.org/templates/hl7.cda.template/0.5.0",
       "status" : "release",
       "sequence" : "Publications",
       "fhirversion" : "4.0.1",
       "desc" : "Upgrade for dependency on fhir.base.template",
-      "date" : "2022-12-17",
-      "current" : true
+      "date" : "2022-12-17"
     },
     {
       "version" : "0.4.0",

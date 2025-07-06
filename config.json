@@ -1,4 +1,7 @@
 {
 	"script": "scripts/ant-cda.xml",
-	"otherScripts" : []
+	"otherScripts" : [],
+	"targets": {
+		"onCheck": "onCheck"
+	}
 }
